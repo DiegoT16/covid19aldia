@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COVID-19</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-light">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="index.html">Inicio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="pagina 1.html">¿Qué es?</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="pagina 2.html">Síntomas</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="pagina 3.html">¿Qué hacer?</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="pagina formulario.html">Formulario sobre esta página</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="creditos.html">Fuentes</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="jumbotron text-center">
+		<h2>Realiza este formulario, para poner a prueba lo que aprendiste de esta página.</h2>
+		<h4>Cada pregunta tiene solo 1 respuesta.</h4>
+	</div>
+	<br>
+	<form name="SARS-CoV-2">
+		<b>¿Qué es el COVID-19?</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="covid19" value="1">Una enfermedad causada por el virus SARS-CoV-2.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="covid19" value="2">El virus que causa la enfermedad SARS-CoV-2.
+			</label>		
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="covid19" value="3">Una enfermedad de transmisión sexual.
+			</label>
+		</div>
+		<br>
+		<b>¿Cuánto dura la enfermedad?</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="duracion" value="1">7 a 14 días.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="duracion" value="2">Varía de persona a persona. En un individuo sano puede desaparecer en unos pocos días,<br> 
+				mientras que personas con problemas de salud les puede llevar semanas.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="duracion" value="3">Varía dependiendo de la edad de la persona, únicamente. Si el individuo es mayor a 16 años,<br> 
+				la enfermedad desaparecerá en 7 días, mínimo. Si el individuo es menor a 16, se tardará mucho más.
+			</label>
+		</div>
+		<br>
+		<b>¿Cómo se transmite la enfermedad?</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="transmision" value="1">De persona a persona a través del acto sexual.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="transmision" value="2">De un animal a una persona, y viceversa, mediante saliva.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="transmision" value="3">De una persona a otra persona a través de las gotas procedentes de la nariz o la boca, que salen<br> 
+				cuando el individuo tose, estornuda o habla.
+			</label>
+		</div>
+		<br>
+		<b>¿Qué país tiene la mayor cantidad de casos reportados?</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="casos" value="1">España.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="casos" value="2">Perú.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="casos" value="3">Estados Unidos.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="casos" value="4">Paraguay.
+			</label>
+		</div>
+		<br>
+		<b>Los síntomas del COVID-19 son similares a los de otra enfermedad. ¿Cuál es?:</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="similitud" value="1">Gripe.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="similitud" value="2">Bronquitis crónica.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="similitud" value="3">Dengue.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="similitud" value="4">Ébola.
+			</label>
+		</div>
+		<br>
+		<b>Hablando de síntomas. ¿Cuáles son los del COVID-19?</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="sintomas" value="1">Falta de aire, dolor de pie, sangrado de oídos.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="sintomas" value="2">Fiebre, tos seca, falta de aire, dolor muscular y cansancio.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="sintomas" value="3">Sangrado de boca y ojos, frío extremo, dolor de manos, disminución de la agudeza visual.
+			</label>
+		</div>
+		<br>
+		<b>¿Cuál es el plazo de tiempo que hay para que las personas infectadas empiecen a presentar síntomas?</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="tiempo" value="1">5 a 6 días desde que se infectan.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="tiempo" value="2">7 a 14 días desde que se infectan.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="tiempo" value="3"> 3 a 9 días desde que se infectan.
+			</label>
+		</div>
+		<br>
+		<b>Si uno presenta síntomas graves. ¿Qué es mejor hacer?</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="graves" value="1">Automedicarse.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="graves" value="2">Salir a un boliche.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="graves" value="3">Ir a hacerse un test, para comprobar si es que está infectado.
+			</label>
+		</div>
+		<br>
+		<b>¿Qué hacer para evitar infectarse con COVID-19?</b>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="evitar" value="1">Tomar jugo de tomate, tomar medicamentos e ir con el patólogo.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="evitar" value="2">Hacer medicamentos caseros, cosechar lechuga para una sopa especial que previene a uno de infectarse de COVID-19.
+			</label>
+		</div>
+		<div class="form-check">
+			<label class="form-check-label">
+				<input type="checkbox" class="form-check-input" name="evitar" value="3">Mantener distanciamiento social y lavarse las manos si es que anteriormente se salió del hogar.
+			</label>
+		</div>
+		<br>
+	</form>
+	<p><a href="#login-form" rel="modal:open">Confirmar</a></p>
+	<div id="login-form" class="modal">
+		<p>Porcentaje de aciertos en las respuestas: </p>
+		<br>
+		<p>Porcentaje de errores en las respuestas: </p>
+		<br>
+		<p>Cantidad de respuestas correctas: </p>
+		<br>
+		<p>Cantidad de respuestas incorrectas: </p>
+		<a href="#" rel="modal:close">Cerrar</a>
+	</div>
+</body>
+</html>
